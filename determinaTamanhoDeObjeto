@@ -1,0 +1,4 @@
+function determinaTamanhoDeObjeto(objeto) {
+    // escreve aqui a função
+    return Object.keys(objeto).length
+}
