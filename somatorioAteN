@@ -1,0 +1,10 @@
+function somatorioAteN(n){
+    // escreve aqui a função
+let count=0
+let i=0
+while (i<=n){
+    count=count+i
+i++
+}
+return count
+}
