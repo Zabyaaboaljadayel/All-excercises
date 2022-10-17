@@ -1,0 +1,4 @@
+function umElevadoAoOutro(um, outro) {
+    // escreve aqui a função
+return BigInt(um)**BigInt(outro)
+}
