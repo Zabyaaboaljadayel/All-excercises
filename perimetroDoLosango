@@ -1,0 +1,4 @@
+function perimetroDoLosango(diagonalMaior, diagonalMenor) {
+    // escreve aqui a função
+    return 2*Math.sqrt(diagonalMaior**2+diagonalMenor**2)
+}
