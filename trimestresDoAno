@@ -1,0 +1,21 @@
+function trimestresDoAno(t) {
+    // escreve aqui a função
+    switch(t){
+        case 1:
+        t="Janeiro, Fevereiro, Março";
+        return t
+        case 2:
+        t="Abril, Maio, Junho";
+        return t
+        case 3:
+        t="Julho, Agosto, Setembro";
+        return t
+        case 4:
+        t="Outubro, Novembro, Dezembro";
+        return t
+    }
+    if (t>4 || t<1){
+        return "Número inválido. Por favor insira um número entre 1 e 4."
+    }
+    return t
+}
