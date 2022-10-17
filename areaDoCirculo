@@ -1,0 +1,4 @@
+function areaDoCirculo(raio) {
+    // escreve aqui a função
+    return Math.PI*raio**2
+}
