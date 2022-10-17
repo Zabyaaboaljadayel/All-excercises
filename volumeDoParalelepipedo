@@ -1,0 +1,4 @@
+function volumeDoParalelepipedo(comprimento, largura, altura) {
+    return comprimento * largura * altura;
+}
+console.log(volumeDoParalelepipedo(5,2,2))
