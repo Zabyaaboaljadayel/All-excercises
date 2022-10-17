@@ -1,0 +1,4 @@
+function areaDoRectangulo(comprimento, largura) {
+   return comprimento * largura;
+}
+console.log(areaDoRectangulo(5,2))
