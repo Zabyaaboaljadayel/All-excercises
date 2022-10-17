@@ -1,0 +1,8 @@
+function umOuOutro(boolean1, boolean2) {
+    // escreve aqui a função
+    if (!boolean1 && boolean2 || boolean1 && !boolean2){
+        return true
+    } else{
+     return false   
+}
+}
