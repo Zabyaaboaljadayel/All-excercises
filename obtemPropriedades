@@ -1,0 +1,7 @@
+function obtemPropriedades(objeto) {
+    let array=[];
+    for(let i=0; i<objeto.length; i++){
+        array=objeto
+    }
+    return Object.keys(objeto)
+}
