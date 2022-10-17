@@ -1,0 +1,4 @@
+function perimetroDoHexagono(lado) {
+    // escreve aqui a função
+    return lado*6
+}
