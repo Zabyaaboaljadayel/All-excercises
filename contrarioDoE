@@ -1,0 +1,5 @@
+function contrarioDoE(boolean1, boolean2) {
+    // escreve aqui a função
+    if (boolean1 && boolean2) return false
+    else return true
+}
