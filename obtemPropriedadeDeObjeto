@@ -1,0 +1,4 @@
+function obtemPropriedadeDeObjeto(objeto, propriedade) {
+    console.log(objeto,propriedade)
+    return objeto[propriedade]
+}
