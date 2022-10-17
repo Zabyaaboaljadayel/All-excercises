@@ -1,0 +1,6 @@
+function perimetroDoTrapezio(comprimentoMaior, comprimentoMenor, altura) {
+    // escreve aqui a função
+    let a= (comprimentoMaior-comprimentoMenor)/2
+    let q= Math.hypot(a, altura)
+    return comprimentoMaior+q+comprimentoMenor+q
+}
