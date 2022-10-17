@@ -1,0 +1,4 @@
+function volumeDoCubo(lado) {
+    // escreve aqui a função
+    return lado**3
+}
