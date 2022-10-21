@@ -1,0 +1,32 @@
+function mesPorExtenso(data){
+   let mes = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
+
+d = data.getMonth()
+
+switch(d){
+    case 0: 
+        return mes[0]
+    case 1: 
+        return mes[1]
+    case 2: 
+        return mes[2]
+    case 3: 
+        return mes[3]
+    case 4: 
+        return mes[4]
+    case 5: 
+        return mes[5]
+    case 6: 
+        return mes[6]
+    case 7: 
+        return mes[7]
+    case 8: 
+        return mes[8]
+    case 9: 
+        return mes[9]
+    case 10: 
+        return mes[10]
+    case 11: 
+        return mes[11]
+}
+} 
