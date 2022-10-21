@@ -1,0 +1,12 @@
+function maiorAbsoluto(a, b){
+    // escreve aqui a função
+    let x=Math.abs(a)
+    let y=Math.abs(b)
+
+    if (x > y){
+        return x
+    }
+    if (x< y){
+        return y
+    }
+}
