@@ -1,0 +1,272 @@
+function horaPorExtenso(data){
+    let horaIndex = data.getUTCHours()
+let hora
+let minIndex = data.getMinutes()
+let minuto
+let horario
+
+switch(horaIndex){
+    case 0:
+        hora = "meia noite"
+        break
+    case 1:
+        hora = "uma"
+        break
+    case 2:
+        hora = "duas"
+        break
+    case 3:
+        hora = "três"
+        break
+    case 4:
+        hora = "quatro"
+        break
+    case 5:
+        hora = "cinco"
+        break
+    case 6:
+        hora = "seis"
+        break
+    case 7:
+        hora = "sete"
+        break
+    case 8:
+        hora = "oito"
+        break
+    case 9:
+        hora = "nove"
+        break
+    case 10:
+        hora = "dez"
+        break
+    case 11:
+        hora = "onze"
+        break
+    case 12:
+        hora = "doze"
+        break
+    case 13:
+        hora = "treze"
+        break
+    case 14:
+        hora = "catorze"
+        break
+    case 15:
+        hora = "quinze"
+        break
+    case 16:
+        hora = "dezasseis"
+        break
+    case 17:
+        hora = "dezassete"
+        break
+    case 18:
+        hora = "dezoito"
+        break
+    case 19:
+        hora = "dezanove"
+        break
+    case 20:
+        hora = "vinte"
+        break
+    case 21:
+        hora = "vinte e uma"
+        break
+    case 22:
+        hora = "vinte e duas"
+        break
+    case 23:
+        hora = "vinte e três"
+        break
+}
+
+switch(minIndex){
+    case 0:
+        minuto = " em ponto"
+        break
+    case 1:
+        minuto = "um"
+        break
+    case 2:
+        minuto = "dois"
+        break
+    case 3:
+        minuto = "três"
+        break
+    case 4:
+        minuto = "quatro"
+        break
+    case 5:
+        minuto = "cinco"
+        break
+    case 6:
+        minuto = "seis"
+        break
+    case 7:
+        minuto = "sete"
+        break
+    case 8:
+        minuto = "oito"
+        break
+    case 9:
+        minuto = "nove"
+        break
+    case 10:
+        minuto = "dez"
+        break
+    case 11:
+        minuto = "onze"
+        break
+    case 12:
+        minuto = "doze"
+        break
+    case 13:
+        minuto = "treze"
+        break
+    case 14:
+        minuto = "catorze"
+        break
+    case 15:
+        minuto = "um quarto"
+        break
+    case 16:
+        minuto = "dezasseis"
+        break
+    case 17:
+        minuto = "dezassete"
+        break
+    case 18:
+        minuto = "dezoito"
+        break
+    case 19:
+        minuto = "dezanove"
+        break
+    case 20:
+        minuto = "vinte"
+        break
+    case 21:
+        minuto = "vinte e um"
+        break
+    case 22:
+        minuto = "vinte e dois"
+        break
+    case 23:
+        minuto = "vinte e três"
+        break
+    case 24:
+        minuto = "vinte e quatro"
+        break
+    case 25:
+        minuto = "vinte e cinco"
+        break
+    case 26:
+        minuto = "vinte e seis"
+        break
+    case 27:
+        minuto = "vinte e sete"
+        break
+    case 28:
+        minuto = "vinte e oito"
+        break
+    case 29:
+        minuto = "vinte e nove"
+        break
+    case 30:
+        minuto = "trinta"
+        break
+    case 31:
+        minuto = "trinta e um"
+        break
+    case 32:
+        minuto = "trinta e dois"
+        break
+    case 33:
+        minuto = "trinta e três"
+        break
+    case 34:
+        minuto = "trinta e quatro"
+        break
+    case 35:
+        minuto = "trinta e cinco"
+        break
+    case 36:
+        minuto = "trinta e seis"
+        break
+    case 37:
+        minuto = "trinta e sete"
+        break
+    case 38:
+        minuto = "trinta e oito"
+        break
+    case 39:
+        minuto = "trinta e nove"
+        break
+    case 40:
+        minuto = "quarenta"
+        break
+    case 41:
+        minuto = "quarenta e um"
+        break
+    case 42:
+        minuto = "quarenta e dois"
+        break
+    case 43:
+        minuto = "quarenta e três"
+        break
+    case 44:
+        minuto = "quarenta e quatro"
+        break
+    case 45:
+        minuto = "trrês quartos"
+        break
+    case 46:
+        minuto = "quarenta e seis"
+        break
+    case 47:
+        minuto = "quarenta e sete"
+        break
+    case 48:
+        minuto = "quarenta e oito"
+        break
+    case 49:
+        minuto = "quarenta e nove"
+        break
+    case 50:
+        minuto = "cinquenta"
+        break
+    case 51:
+        minuto = "cinquenta e um"
+        break
+    case 52:
+        minuto = "cinquenta e dois"
+        break
+    case 53:
+        minuto = "cinquenta e três"
+        break
+    case 54:
+        minuto = "cinquenta e quatro"
+        break
+    case 55:
+        minuto = "cinquenta e cinco"
+        break
+    case 56:
+        minuto = "cinquenta e seis"
+        break
+    case 57:
+        minuto = "cinquenta e sete"
+        break
+    case 58:
+        minuto = "cinquenta e oito"
+        break
+    case 59:
+        minuto = "cinquenta e nove"
+        break
+}
+
+if (minIndex == 0){
+    horario = hora + minuto
+}else if (minIndex > 0){
+    horario = hora + " e " + minuto
+}
+return horario
+} 
