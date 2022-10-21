@@ -1,0 +1,4 @@
+function superficieDoParalelepipedoQuadrado(ladodabase, comprimento){
+    // escreve aqui a função
+    return 4*(ladodabase*comprimento)+2*(ladodabase**2)
+}
