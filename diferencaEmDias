@@ -1,0 +1,5 @@
+function diferencaEmDias(data1, data2) {
+    // escreve aqui a função
+    
+    return Math.abs(Math.floor((Math.max(data1,data2)-Math.min(data1,data2))/(24*60*60*1000)))
+}
