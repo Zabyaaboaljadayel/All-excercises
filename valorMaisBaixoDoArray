@@ -1,0 +1,4 @@
+function valorMaisBaixoDoArray(array){
+    // escreve aqui a função
+return Math.min(...array)
+}
