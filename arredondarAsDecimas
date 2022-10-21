@@ -1,0 +1,4 @@
+function arredondarAsDecimas(d){
+    // escreve aqui a função
+    return +(d.toFixed(1))
+}
