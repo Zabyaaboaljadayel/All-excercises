@@ -1,0 +1,10 @@
+function diaDaSemanaPorExtensoBilingue(data, lingua){
+
+    const DIAS_SEMANA = ["domingo","segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"]
+    const DAYS_WEEK = ["sunday","monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+
+   switch(lingua){
+       case "pt": return DIAS_SEMANA[data.getDay()]
+       default: return DAYS_WEEK[data.getDay()]
+   }
+}
