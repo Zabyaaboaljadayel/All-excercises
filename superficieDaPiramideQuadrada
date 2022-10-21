@@ -1,0 +1,9 @@
+function superficieDaPiramideQuadrada(ladodabase, altura){
+    // escreve aqui a função
+    let alturaTriangulo = Math.hypot((ladodabase/2), altura)
+    let areaTotalTriangulos = 4 * ((ladodabase*alturaTriangulo) /2 )
+    let areaDaBase = ladodabase**2
+
+
+    return areaDaBase + areaTotalTriangulos
+}
