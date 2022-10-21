@@ -1,0 +1,4 @@
+function superficieDoCone(raio, altura){
+    // escreve aqui a função
+    return Math.PI*raio*(raio+Math.hypot(raio, altura))
+}
