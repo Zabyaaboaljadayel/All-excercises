@@ -1,0 +1,4 @@
+function superficieDaEsfera(raio){
+    // escreve aqui a função
+    return 4 *Math.PI*raio**2
+}
