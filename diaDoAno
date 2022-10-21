@@ -1,0 +1,63 @@
+function diaDoAno(data){
+   
+let i = data.getDate()
+let x = data.getMonth()
+let y = data.getFullYear()
+
+if(y % 400 == 0 || y % 4 == 0 && y % 100 != 0){
+    switch (x){
+        case 0:
+            return i
+        case 1:
+            return i + 31
+        case 2:
+            return i + 60
+        case 3:
+            return i + 91
+        case 4:
+            return i + 121
+        case 5:
+            return i + 152
+        case 6:
+            return i + 182
+        case 7:
+            return i + 213
+        case 8:
+            return i + 244
+        case 9:
+            return i + 274
+        case 10:
+            return i + 305
+        case 11:
+            return i + 335
+        
+    }
+}else{
+    switch (x){
+        case 0:
+            return i
+        case 1:
+            return i + 31
+        case 2:
+            return i + 59
+        case 3:
+            return i + 90
+        case 4:
+            return i + 120
+        case 5:
+            return i + 151
+        case 6:
+            return i + 181
+        case 7:
+            return i + 212
+        case 8:
+            return i + 243
+        case 9:
+            return i + 273
+        case 10:
+            return i + 304
+        case 11:
+            return i + 334
+    }
+}
+} 
