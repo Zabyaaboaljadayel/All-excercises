@@ -1,0 +1,6 @@
+function subtraiDias(data, dias) {
+   let a = dias * 24*60*60*1000
+    let date = new Date(data.valueOf() - a)
+
+    return date
+}
