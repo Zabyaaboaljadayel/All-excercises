@@ -1,0 +1,6 @@
+function arraySemDuplicados(array){
+    // escreve aqui a função
+    const MY_SET= new Set(array)
+    return[...MY_SET]
+    
+}
