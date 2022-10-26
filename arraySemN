@@ -1,0 +1,4 @@
+function arraySemN(n, array){
+    // escreve aqui a função
+    return array.filter(data=> data!==n)
+}
