@@ -1,0 +1,4 @@
+function somaDiagonalSecundaria(matrizquadrada) {
+    // escreve aqui a função
+    return matrizquadrada[3][0]+matrizquadrada[2][1]+matrizquadrada[1][2]+matrizquadrada[0][3]
+}
