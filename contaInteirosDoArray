@@ -1,0 +1,10 @@
+function contaInteirosDoArray(array){
+   let cont = 0;
+
+for(let i = 0; i < array.length; i++){
+    if(Number.isInteger(array[i])){
+        cont++
+    }
+}
+return cont
+}
