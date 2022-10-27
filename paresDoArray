@@ -1,0 +1,4 @@
+function paresDoArray(array){
+    // escreve aqui a função
+    return array.filter((elemento)=> elemento%2==0)
+}
