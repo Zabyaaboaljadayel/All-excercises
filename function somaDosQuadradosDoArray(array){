@@ -1,0 +1,9 @@
+function somaDosQuadradosDoArray(array){
+  let lol=[]
+  let lal=[]
+  let soma=0
+  for(let i=0; i< array.length; i++){
+    soma+= array[i]* array[i]
+  }
+  return soma
+}
