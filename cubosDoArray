@@ -1,0 +1,8 @@
+function cubosDoArray(array){
+    // escreve aqui a função
+    let h= []
+    for(let i=0; i < array.length; i++){
+        h[i]= array[i]*array[i]*array[i]
+    }
+    return h
+}
