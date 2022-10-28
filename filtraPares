@@ -1,0 +1,4 @@
+function filtraPares(array){
+    // escreve aqui a função
+    return array.filter((e)=> e%2==0)
+}
