@@ -1,0 +1,4 @@
+function somatorio(array){
+    // escreve aqui a função
+    return array.reduce((a,b)=> a+b)
+}
