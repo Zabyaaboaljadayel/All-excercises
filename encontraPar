@@ -1,0 +1,10 @@
+function encontraPar(array){
+    // escreve aqui a função
+   function eNumeroPar(value){
+       for (let i=2; i% 2==0; i++){
+           if (value % i==1) return false;
+       }
+       return value >1
+   }
+   return array.find(eNumeroPar)
+}
