@@ -1,0 +1,4 @@
+function existePar(array){
+    // escreve aqui a função
+    return array.some((elemento)=> elemento% 2== 1)
+}
