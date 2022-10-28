@@ -1,0 +1,4 @@
+function minimoPar(array){
+    // escreve aqui a função
+    return array.reduce((a,b)=> (b%2==0)&& b<a? b: a)
+}
