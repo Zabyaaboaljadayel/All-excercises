@@ -1,0 +1,5 @@
+function partesDecimais(array){
+      
+ return array.map (e => Math.
+floor ((e - Math.trunc (e)) *100) / 100)
+}
