@@ -1,0 +1,4 @@
+function todosSaoNegativos(array){
+    // escreve aqui a função
+    return array.every(a=> a<0)
+}
