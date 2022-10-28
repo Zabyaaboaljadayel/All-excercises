@@ -1,0 +1,3 @@
+function raizesCubicas(array){
+  return array.map((elemento)=> Math.cbrt(elemento))
+}
