@@ -1,0 +1,4 @@
+function todosSaoNumeros(array){
+    // escreve aqui a função
+    return array.every((e)=> e == Number(e))
+}
