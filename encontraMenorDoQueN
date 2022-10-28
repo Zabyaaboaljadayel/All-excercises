@@ -1,0 +1,4 @@
+function encontraMenorDoQueN(array, n){
+    // escreve aqui a função
+    return array.find((e)=> e<n)
+}
