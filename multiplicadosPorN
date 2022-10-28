@@ -1,0 +1,4 @@
+function multiplicadosPorN(array, n){
+return array.map((e)=> e*n)
+}
+ 
