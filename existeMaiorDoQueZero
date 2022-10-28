@@ -1,0 +1,4 @@
+function existeMaiorDoQueZero(array){
+    // escreve aqui a 
+    return array.some((elemento)=> elemento>0)
+}
