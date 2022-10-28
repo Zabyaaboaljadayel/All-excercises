@@ -1,0 +1,9 @@
+function mapaDeOcorrencias(array){
+    // escreve aqui a função
+    return array.reduce ((mapa, ele)=> {if(mapa.has(ele)){
+        return new Map ([...mapa, [ele,mapa.get(ele)+1]])
+    }else{
+        return new Map([...mapa, [ele,1]])
+    }
+    },new Map())
+}
