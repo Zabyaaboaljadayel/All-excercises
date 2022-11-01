@@ -1,0 +1,6 @@
+function fraseInversa(string) {
+    var newString= string.split(" ");
+    newString.reverse();
+    newString= newString.join(" ");
+    return newString
+    }
