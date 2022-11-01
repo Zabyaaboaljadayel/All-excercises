@@ -1,0 +1,20 @@
+class Pilha{
+    #capacidade
+#elems=[]
+constructor(capacidade){
+ this.#capacidade=capacidade?? Infinity
+  
+}
+    adicionar(elem){
+        if(this.#elems.length== this.#capacidade) return "Pilha cheia!"
+        this.#elems.push(elem)
+    }
+    remover(){
+        if(this.#elems.length==0) return"Pilha vazia!"
+         this.#elems.pop()
+    }
+    obterValor(){
+        if (this.#elems.length==0) return "Pilha vazia!"
+        return this.#elems[this.#elems.length-1]
+}
+}
